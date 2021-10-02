@@ -6,9 +6,8 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 
 /**
- * A simple JFrame containing a single component for drawing (via the draw method)
- * 
- * @author Amanda Sun
+ * @author Chris Bailey-Kellogg, Dartmouth CS 10, Winter 2014
+ * @author CBK, Spring 2015, revised to factor out the image, provide simple event handling
  */
 public class DrawingGUI extends JFrame {
 	public JComponent canvas;						// handles graphics display
